@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="adding intro">
-      <change beforePath="$PROJECT_DIR$/.idea/small_python_projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/small_python_projects.iml" afterDir="false" />
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birthday_paradox/birthdayparadox.py" beforeDir="false" afterPath="$PROJECT_DIR$/birthday_paradox/birthdayparadox.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723651726275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="coding">
+      <option name="closed" value="true" />
+      <created>1723730599140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723730599140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +114,7 @@
     <MESSAGE value="new birthdayparadox project" />
     <MESSAGE value="in coding" />
     <MESSAGE value="adding intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding intro" />
+    <MESSAGE value="coding" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding" />
   </component>
 </project>
