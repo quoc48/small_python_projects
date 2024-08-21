@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="first adding library and define variants">
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/black_jack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/black_jack/blackjack.py" afterDir="false" />
     </list>
@@ -164,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724082554557</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="coding...">
+      <option name="closed" value="true" />
+      <created>1724164929904</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724164929905</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,6 +188,18 @@
     <MESSAGE value="run and test with string input" />
     <MESSAGE value="new project set up" />
     <MESSAGE value="first adding library and define variants" />
-    <option name="LAST_COMMIT_MESSAGE" value="first adding library and define variants" />
+    <MESSAGE value="coding..." />
+    <option name="LAST_COMMIT_MESSAGE" value="coding..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/black_jack/blackjack.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

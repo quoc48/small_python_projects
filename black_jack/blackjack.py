@@ -60,3 +60,18 @@ def main():
                 bet += additionalBet
                 print('Bet increased to {}.'.format(bet))
                 print('Bet:', bet)
+
+            if move in ('H', 'D'):
+                # Hit/doubling down takes another card.
+                newCard = deck.pop()
+                rank, suit = newCard
+                print('You drew a {} of {}.'.format(rank, suit))
+                playerHand.append(newCard)
+
+                if getHandValue(playerHand) > 21:
+                    # The player has busted:
+                    continue
+
+            if move in ('S', 'D'):
+                # Stand/doubling down stops the player's turn.
+                break
