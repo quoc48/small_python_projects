@@ -23,6 +23,6 @@ try:
         hTopRow, hMiddleRow, hBottomRow = hDigits.splitlines()
 
         mDigits = sevseg.getSevSegStr(minutes, 2)
-        mTopRow, mMiddleRow , mBottomRow = mDigits.splitlines()
+
 
 
