@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding..." />
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="code updating">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724775965504</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="coding...">
+      <option name="closed" value="true" />
+      <created>1724776332494</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1724776332494</updated>
+    </task>
+    <task id="LOCAL-00025" summary="code updating">
+      <option name="closed" value="true" />
+      <created>1724776628445</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724776628445</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,7 +277,8 @@
     <MESSAGE value="new project set up" />
     <MESSAGE value="first adding library and define variants" />
     <MESSAGE value="coding..." />
-    <option name="LAST_COMMIT_MESSAGE" value="coding..." />
+    <MESSAGE value="code updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="code updating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,6 +287,11 @@
           <url>file://$PROJECT_DIR$/countdown/countdown.py</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/countdown/countdown.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

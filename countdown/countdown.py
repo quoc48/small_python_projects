@@ -22,7 +22,7 @@ try:
         hDigits = sevseg.getSevSegStr(hours, 2)
         hTopRow, hMiddleRow, hBottomRow = hDigits.splitlines()
 
-        mDigits = sevseg.getSevSegStr(minutes, 2)
+        mDigits = sevseg.getSevSegStr(minutes, 2
 
 
 
