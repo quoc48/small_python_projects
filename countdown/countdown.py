@@ -20,8 +20,9 @@ try:
 
         # Get the digit strings from the sevseg module:
         hDigits = sevseg.getSevSegStr(hours, 2)
-        hTopRow, mMiddleRow, mBottomRow = hDigits.splitlines()
+        hTopRow, hMiddleRow, hBottomRow = hDigits.splitlines()
 
         mDigits = sevseg.getSevSegStr(minutes, 2)
-        mTopRow, mMiddleRow ,
+        mTopRow, mMiddleRow , mBottomRow = mDigits.splitlines()
+
 
