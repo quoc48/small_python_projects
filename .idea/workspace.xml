@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="code updating">
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="finish countdown code">
+      <change afterPath="$PROJECT_DIR$/dna_visualization/dna.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,16 +35,18 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.bagels.executor&quot;: &quot;Run&quot;,
-    &quot;Python.birthdayparadox.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bitmap_message.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bagels.executor": "Run",
+    "Python.birthdayparadox.executor": "Run",
+    "Python.bitmap_message.executor": "Run",
+    "Python.caesar_cipher.executor": "Run",
+    "Python.countdown.executor": "Run",
+    "Python.dna.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -276,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724777725534</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="finish countdown code">
+      <option name="closed" value="true" />
+      <created>1725288277215</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1725288277215</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -294,7 +305,8 @@
     <MESSAGE value="first adding library and define variants" />
     <MESSAGE value="coding..." />
     <MESSAGE value="code updating" />
-    <option name="LAST_COMMIT_MESSAGE" value="code updating" />
+    <MESSAGE value="finish countdown code" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish countdown code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
