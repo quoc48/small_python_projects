@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="finish snail race project">
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="start new project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tower_of_hanoi/towerofhanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tower_of_hanoi/towerofhanoi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +35,19 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.bagels.executor": "Run",
-    "Python.birthdayparadox.executor": "Run",
-    "Python.bitmap_message.executor": "Run",
-    "Python.caesar_cipher.executor": "Run",
-    "Python.countdown.executor": "Run",
-    "Python.dna.executor": "Run",
-    "Python.snailrace.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.bagels.executor&quot;: &quot;Run&quot;,
+    &quot;Python.birthdayparadox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bitmap_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
+    &quot;Python.countdown.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dna.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snailrace.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -319,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725634804171</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="start new project">
+      <option name="closed" value="true" />
+      <created>1725805820334</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1725805820334</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -342,7 +351,8 @@
     <MESSAGE value="create snail race project" />
     <MESSAGE value="coding snail race project" />
     <MESSAGE value="finish snail race project" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish snail race project" />
+    <MESSAGE value="start new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="start new project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
