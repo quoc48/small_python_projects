@@ -63,4 +63,7 @@ def askForPlayerMove(towers):
             # This is a valid move, so return the selected towers:
             return fromTower, toTower
 
+def displayTowers(towers):
+
+
 
