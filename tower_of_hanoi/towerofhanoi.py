@@ -64,6 +64,22 @@ def askForPlayerMove(towers):
             return fromTower, toTower
 
 def displayTowers(towers):
+    """Display the current state."""
+
+    # Display the three towers:
+    for level in range(TOTAL_DISKS, -1, -1):
+        for tower in (towers['A'], towers['B'], towers['C']):
+            if level >= len(tower):
+                displayDisk(0)  # Display the bare pole with no disk.
+            else:
+                displayDisk(tower[level])   # Display the disk.
+        print()
+
+    # Display the tower label A, B, and C.
+    emptySpace = ' ' * (TOTAL_DISKS)
+    print('{0} A{0}{0} B{0}{0} C\n'.format(emptySpace))
+
+
 
 
 
