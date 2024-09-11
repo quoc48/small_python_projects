@@ -79,6 +79,23 @@ def displayTowers(towers):
     emptySpace = ' ' * (TOTAL_DISKS)
     print('{0} A{0}{0} B{0}{0} C\n'.format(emptySpace))
 
+def displayDisk(width):
+    """Display a disk of the given width. A width of 0 mean no disk."""
+    emptySpace = ' ' * (TOTAL_DISKS - width)
+
+    if width == 0:
+        # Display a pole segment without a disk:
+        print(emptySpace + '||' + emptySpace, end='')
+    else:
+        # Display the disk:
+        disk = '@' *  width
+        numLabel = str(width).rjust(2, '_')
+        print(emptySpace + disk + numLabel + disk + emptySpace, end='')
+
+
+# If the program is run (instead of imported), run the game:
+if __name__ == '__main__':
+    main()
 
 
 

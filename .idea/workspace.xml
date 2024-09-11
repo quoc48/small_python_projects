@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding on hanoi tower">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tower_of_hanoi/towerofhanoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/tower_of_hanoi/towerofhanoi.py" afterDir="false" />
-    </list>
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding on hanoi tower" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -352,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725898479530</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="coding on hanoi tower">
+      <option name="closed" value="true" />
+      <created>1725985273494</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1725985273494</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
