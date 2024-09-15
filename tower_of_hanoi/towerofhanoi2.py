@@ -29,3 +29,10 @@ def main():
             print('You have solved the puzzle! Well done!')
             sys.exit()
 
+def askForPlayerMove(towers):
+    """Ask the player for a move. Returns (fromTower, toTower)."""
+
+    while True:
+        print('Enter the letters of "from" and "to" towers, or QUIT.')
+        print('(e.g AB to move a disk from tower A to tower B.)')
+        response = input('> ').upper().strip()
