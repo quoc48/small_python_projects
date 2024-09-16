@@ -36,3 +36,12 @@ def askForPlayerMove(towers):
         print('Enter the letters of "from" and "to" towers, or QUIT.')
         print('(e.g AB to move a disk from tower A to tower B.)')
         response = input('> ').upper().strip()
+
+        if response == 'QUIT':
+            print('Thank for playing!')
+            sys.exit()
+
+        # Make sure the user entered valid tower letters:
+        if response not in ('AB', 'AC', 'BA', 'BC', 'CA', 'CB'):
+            print('Enter one of AB, AC, BA, BC, CA, or CB.')
+            continue    # Ask player again for their move.
