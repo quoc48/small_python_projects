@@ -45,3 +45,32 @@ def askForPlayerMove(towers):
         if response not in ('AB', 'AC', 'BA', 'BC', 'CA', 'CB'):
             print('Enter one of AB, AC, BA, BC, CA, or CB.')
             continue    # Ask player again for their move.
+
+        fromTower, toTower = response[0], response[1]
+
+        if len(towers[fromTower]) == 0:
+            print('You selected a tower with no disk.')
+            continue
+        elif len(towers[toTower]) == 0:
+            return fromTower, toTower
+        elif towers[toTower][-1] < towers[fromTower][-1]:
+            print('Can\'t put larger disks on top of smaller ones.')
+            continue
+        else:
+            return fromTower, toTower
+
+def displayTowers(towers):
+    """Display the current state."""
+
+    # Display the three towers:
+    for level in range(TOTAL_DISKS, -1, -1):
+        for tower in (towers['A'], towers['B'], towers['C']):
+            if level >= len(tower):
+                displayDisk(0)
+            else:
+                displayDisk(tower[level])
+        print()
+
+    emptySpace = ' ' * (TOTAL_DISKS)
+    print('{0} A{0}{0} B{0}{0} C\n'.format(emptySpace))
+
