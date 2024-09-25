@@ -18,7 +18,15 @@ print("Y_test shape: {}".format(y_test.shape))
 
 # create dataframe from data in X_train
 # label the columns using the strings in iris_dataset.feature_name
-iris_dataframe = pd.DataFrame(X_train, columns=iris_dataset.feature_name)
+iris_dataframe = pd.DataFrame(X_train, columns=iris_dataset['feature_names'])
 # create a scatter matrix from the dataframe, color by y_train
 grr = pd.scatter_matrix(iris_dataframe, c=y_train, figsize=(15, 15), marker='o',
                         hist_kwds={'blin': 20}, s=60, alpha=.8, cmap=mglearn.cm3)
+
+from sklearn.neighbors import KNeighborsClassifier
+knn = KNeighborsClassifier(n_neighbors=1)
+
+knn.fit(X_train, y_train)
+
+X_new = np.array([[5, 2.9, 1, 0.2]])
+print("\nX_new.shape: {}".format(X_new.shape))
