@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="re-write the tower of hanoi program">
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="start supervised_learning task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +42,10 @@
     &quot;Python.caesar_cipher.executor&quot;: &quot;Run&quot;,
     &quot;Python.countdown.executor&quot;: &quot;Run&quot;,
     &quot;Python.dna.executor&quot;: &quot;Run&quot;,
+    &quot;Python.first.executor&quot;: &quot;Run&quot;,
     &quot;Python.snailrace.executor&quot;: &quot;Run&quot;,
     &quot;Python.towerofhanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.training_testing_model.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
@@ -63,22 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723556636769</updated>
-    </task>
-    <task id="LOCAL-00001" summary="set up directory and file">
-      <option name="closed" value="true" />
-      <created>1723557271111</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723557271111</updated>
-    </task>
-    <task id="LOCAL-00002" summary="wring code">
-      <option name="closed" value="true" />
-      <created>1723560378162</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723560378162</updated>
     </task>
     <task id="LOCAL-00003" summary="new birthdayparadox project">
       <option name="closed" value="true" />
@@ -408,7 +394,71 @@
       <option name="project" value="LOCAL" />
       <updated>1727102261983</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="setup first project in sklean">
+      <option name="closed" value="true" />
+      <created>1727188959158</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1727188959158</updated>
+    </task>
+    <task id="LOCAL-00045" summary="coding first project in sklean">
+      <option name="closed" value="true" />
+      <created>1727190273516</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1727190273517</updated>
+    </task>
+    <task id="LOCAL-00046" summary="split train and test dataset">
+      <option name="closed" value="true" />
+      <created>1727193716541</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1727193716541</updated>
+    </task>
+    <task id="LOCAL-00047" summary="split train and test dataset">
+      <option name="closed" value="true" />
+      <created>1727196404087</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1727196404087</updated>
+    </task>
+    <task id="LOCAL-00048" summary="continue to making prediction">
+      <option name="closed" value="true" />
+      <created>1727276186422</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1727276186422</updated>
+    </task>
+    <task id="LOCAL-00049" summary="continue to making prediction">
+      <option name="closed" value="true" />
+      <created>1727277393165</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1727277393165</updated>
+    </task>
+    <task id="LOCAL-00050" summary="wrap up first ML task">
+      <option name="closed" value="true" />
+      <created>1727278815405</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1727278815405</updated>
+    </task>
+    <task id="LOCAL-00051" summary="start supervised_learning task">
+      <option name="closed" value="true" />
+      <created>1727278998017</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1727278998017</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,10 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set up directory and file" />
-    <MESSAGE value="wring code" />
-    <MESSAGE value="new birthdayparadox project" />
-    <MESSAGE value="in coding" />
     <MESSAGE value="adding intro" />
     <MESSAGE value="coding" />
     <MESSAGE value="finish birday paradox" />
@@ -452,7 +498,13 @@
     <MESSAGE value="coding on hanoi tower" />
     <MESSAGE value="finish hanoi tower" />
     <MESSAGE value="re-write the tower of hanoi program" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-write the tower of hanoi program" />
+    <MESSAGE value="setup first project in sklean" />
+    <MESSAGE value="coding first project in sklean" />
+    <MESSAGE value="split train and test dataset" />
+    <MESSAGE value="continue to making prediction" />
+    <MESSAGE value="wrap up first ML task" />
+    <MESSAGE value="start supervised_learning task" />
+    <option name="LAST_COMMIT_MESSAGE" value="start supervised_learning task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
