@@ -14,3 +14,5 @@ print("X.shape: {}".format(X.shape))
 
 # Add this line to display the plot
 plt.show()
+
+# adding
