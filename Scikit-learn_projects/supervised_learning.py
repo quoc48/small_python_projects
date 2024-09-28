@@ -1,18 +1,16 @@
 import matplotlib.pyplot as plt
 import mglearn
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
 
-# generate dataset
-X, y = mglearn.datasets.make_forge()
+X, y =mglearn.datasets.make_forge()
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 
-# plot dataset
-mglearn.discrete_scatter(X[:, 0], X[:, 1], y)
+clf = KNeighborsClassifier(n_neighbors=3)
+clf.fit(X_train, y_train)
 
-plt.legend(["Class 0", "Class 1"], loc=4)
-plt.xlabel("First feature")
-plt.ylabel("Second feature")
-print("X.shape: {}".format(X.shape))
+print("Test set predictions: {}".format(clf.predict(X_test)))
+print("Test set accuracy: {:.2f}".format(clf.score(X_test, y_test)))
 
-# Add this line to display the plot
-plt.show()
 
-# adding
