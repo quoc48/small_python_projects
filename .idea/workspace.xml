@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding supervised_learning task">
-      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/linear_regression.py" afterDir="false" />
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding linear regression">
+      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/ridge_regression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "Python.dna.executor": "Run",
     "Python.first.executor": "Run",
     "Python.linear_regression.executor": "Run",
+    "Python.ridge_regression.executor": "Run",
     "Python.snailrace.executor": "Run",
     "Python.supervised_2.executor": "Run",
     "Python.supervised_learning.executor": "Run",
@@ -70,14 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723556636769</updated>
-    </task>
-    <task id="LOCAL-00010" summary="new project">
-      <option name="closed" value="true" />
-      <created>1723986101366</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1723986101366</updated>
     </task>
     <task id="LOCAL-00011" summary="run and test with string input">
       <option name="closed" value="true" />
@@ -463,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727599918864</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="coding linear regression">
+      <option name="closed" value="true" />
+      <created>1727708110564</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1727708110564</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="coding" />
     <MESSAGE value="finish birday paradox" />
     <MESSAGE value="finish birthday paradox" />
     <MESSAGE value="new project" />
@@ -509,7 +509,8 @@
     <MESSAGE value="wrap up first ML task" />
     <MESSAGE value="start supervised_learning task" />
     <MESSAGE value="coding supervised_learning task" />
-    <option name="LAST_COMMIT_MESSAGE" value="coding supervised_learning task" />
+    <MESSAGE value="coding linear regression" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding linear regression" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
