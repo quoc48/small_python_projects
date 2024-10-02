@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding ridge regression">
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding linear regression with multi classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scikit-learn_projects/linear_regression_multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scikit-learn_projects/linear_regression_multi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Python.dna.executor": "Run",
     "Python.first.executor": "Run",
     "Python.linear_regression.executor": "Run",
+    "Python.linear_regression_multi.executor": "Run",
     "Python.ridge_regression.executor": "Run",
     "Python.snailrace.executor": "Run",
     "Python.supervised_2.executor": "Run",
@@ -70,14 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723556636769</updated>
-    </task>
-    <task id="LOCAL-00013" summary="first adding library and define variants">
-      <option name="closed" value="true" />
-      <created>1724082554557</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1724082554557</updated>
     </task>
     <task id="LOCAL-00014" summary="coding...">
       <option name="closed" value="true" />
@@ -463,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727796473324</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="coding linear regression with multi classes">
+      <option name="closed" value="true" />
+      <created>1727881587674</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1727881587674</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="finish birthday paradox" />
     <MESSAGE value="new project" />
     <MESSAGE value="run and test with string input" />
     <MESSAGE value="new project set up" />
@@ -509,7 +510,8 @@
     <MESSAGE value="coding supervised_learning task" />
     <MESSAGE value="coding linear regression" />
     <MESSAGE value="coding ridge regression" />
-    <option name="LAST_COMMIT_MESSAGE" value="coding ridge regression" />
+    <MESSAGE value="coding linear regression with multi classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding linear regression with multi classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
