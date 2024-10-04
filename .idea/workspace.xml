@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding linear regression with multi classes">
-      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/NB_clasifier.py" afterDir="false" />
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="coding Naive Bayes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,14 +72,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723556636769</updated>
-    </task>
-    <task id="LOCAL-00016" summary="coding...">
-      <option name="closed" value="true" />
-      <created>1724340258512</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1724340258512</updated>
     </task>
     <task id="LOCAL-00017" summary="coding...">
       <option name="closed" value="true" />
@@ -466,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727885342199</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="coding Naive Bayes">
+      <option name="closed" value="true" />
+      <created>1727969520704</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1727969520705</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new project" />
     <MESSAGE value="run and test with string input" />
     <MESSAGE value="new project set up" />
     <MESSAGE value="first adding library and define variants" />
@@ -512,7 +510,8 @@
     <MESSAGE value="coding linear regression" />
     <MESSAGE value="coding ridge regression" />
     <MESSAGE value="coding linear regression with multi classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="coding linear regression with multi classes" />
+    <MESSAGE value="coding Naive Bayes" />
+    <option name="LAST_COMMIT_MESSAGE" value="coding Naive Bayes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
