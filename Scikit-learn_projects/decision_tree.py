@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer
@@ -23,5 +25,15 @@ dot_data = export_graphviz(tree, out_file=None, class_names=["malignant", "benig
 graph = graphviz.Source(dot_data)
 graph.render("decision_tree")
 
-print("Feature importance: \n{}".format(tree.feature_importances_))
+# print("Feature importance: \n{}".format(tree.feature_importances_))
+
+def plot_feature_importances_cancer(model):
+    n_features = cancer.data.shape[1]
+    plt.barh(range(n_features), model.feature_importances_, align="center")
+    plt.yticks(np.arange(n_features), cancer.feature_names)
+    plt.xlabel("Feature importance")
+    plt.ylabel("Feature")
+    plt.show()
+
+plot_feature_importances_cancer(tree)
 
