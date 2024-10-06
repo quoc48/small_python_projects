@@ -23,3 +23,5 @@ dot_data = export_graphviz(tree, out_file=None, class_names=["malignant", "benig
 graph = graphviz.Source(dot_data)
 graph.render("decision_tree")
 
+print("Feature importance: \n{}".format(tree.feature_importances_))
+

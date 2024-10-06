@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="refactor Naive Bayes">
-      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/Source.gv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/decision_tree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/decision_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scikit-learn_projects/tree.dot" afterDir="false" />
+    <list default="true" id="c0d8c652-4dae-4385-8ae5-46ad6f00d40f" name="Changes" comment="tree decision">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723556636769</updated>
-    </task>
-    <task id="LOCAL-00018" summary="coding...">
-      <option name="closed" value="true" />
-      <created>1724686677349</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1724686677349</updated>
     </task>
     <task id="LOCAL-00019" summary="coding...">
       <option name="closed" value="true" />
@@ -471,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728056877946</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="tree decision">
+      <option name="closed" value="true" />
+      <created>1728123717033</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1728123717033</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new project set up" />
     <MESSAGE value="first adding library and define variants" />
     <MESSAGE value="coding..." />
     <MESSAGE value="code updating" />
@@ -518,7 +513,8 @@
     <MESSAGE value="coding linear regression with multi classes" />
     <MESSAGE value="coding Naive Bayes" />
     <MESSAGE value="refactor Naive Bayes" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor Naive Bayes" />
+    <MESSAGE value="tree decision" />
+    <option name="LAST_COMMIT_MESSAGE" value="tree decision" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
